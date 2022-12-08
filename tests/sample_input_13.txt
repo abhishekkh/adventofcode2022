@@ -1,0 +1,13 @@
+$ cd /
+$ ls
+dir a
+dir b
+100 fa
+200 fb
+$ cd a
+$ ls
+300 fc
+$ cd ..
+$ cd b
+$ ls
+400 fd

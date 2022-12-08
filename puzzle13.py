@@ -49,12 +49,12 @@ def handle_cd(current_node: Node, new_dir: str) -> Node:
                 return current_node.children[i]
 
 
-def build_file_system():
+def build_file_system(file_name="puzzle13_input") -> Node:
     output = []
     current_node = None
     root_node = None
     lsoutput = False
-    with open("puzzle13_input") as f:
+    with open(file_name) as f:
         for line in f:
             input = line.strip()
             command = input.split()
